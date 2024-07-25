@@ -1,4 +1,11 @@
+<h1>{{nombre}}</h1>
+<button type="button" (click)="saludar()">Saludar</button>
+
+
 <app-hijo [recibeHijo]="mensajePadre" (mensajeDesdeHijo)="recibirMensaje($event)"></app-hijo>
 
 <h5>El mensaje recibido desde el hijo es:</h5>
 {{ mensajeRecibido }}
+
+
+ 
